@@ -1,0 +1,72 @@
+.container {
+    width: 80%;
+    margin: 1% 10%;
+    
+}
+.container2{
+    display: flex;
+    padding: 70px;
+}
+
+
+.box{
+    flex: 1;
+    margin-right: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(145, 133, 157);
+    color: white;
+}
+
+#myInput {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0.4rem;
+}
+
+.abs-btm {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.grid-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(169, 161, 177);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1 {
+    padding: 1rem;
+}
+
+img {
+    width: 16rem;
+}
+
+.c2 {
+    padding: 1rem;
+}
+
+@media (max-width:450px) {
+    img {
+        width: 11rem;
+    }
+}
